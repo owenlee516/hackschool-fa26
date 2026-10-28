@@ -8,4 +8,7 @@ const router = express.Router();
  *  Register a GET route at "/check/:word" that is handled by checkWord
  */ 
 
+
+router.get("/check/:word", checkWord);
+
 module.exports = router;

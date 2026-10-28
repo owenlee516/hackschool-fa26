@@ -15,3 +15,4 @@ router.get("/:date", getSpecificGame);
 router.post("/", createGame);
 
 module.exports = router;
+
